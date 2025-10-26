@@ -1,0 +1,20 @@
+package com.crypto.wallet.dto;
+
+import java.math.BigDecimal;
+
+public class SimulationItem {
+    private String symbol;
+    private BigDecimal quantity;
+
+    public SimulationItem() {}
+
+    public SimulationItem(String symbol, BigDecimal quantity) {
+        this.symbol = symbol;
+        this.quantity = quantity;
+    }
+
+    public String getSymbol() { return symbol; }
+    public void setSymbol(String symbol) { this.symbol = symbol; }
+    public BigDecimal getQuantity() { return quantity; }
+    public void setQuantity(BigDecimal quantity) { this.quantity = quantity; }
+}
