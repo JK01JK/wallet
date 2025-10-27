@@ -1,0 +1,6 @@
+Endpoints
+
+POST /wallets – Create a new wallet
+POST /wallets/{id}/assets – Add a crypto asset
+GET /wallets/{id} – Get wallet information
+POST /wallets/simulate – Simulate wallet performance
